@@ -1,14 +1,3 @@
-/**
-* Template Name: MyResume
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -43,7 +32,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #0678e3;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -130,8 +119,8 @@ h6 {
 @media (max-width: 991px) {
   #header {
     width: 300px;
-    background: #fff;
-    border-right: 1px solid #e6e9ec;
+    /* background: #a69c9c; */
+    /* border-right: 1px solid #e6e9ec; */
     left: -300px;
   }
 }
@@ -249,7 +238,7 @@ h6 {
   cursor: pointer;
   border-radius: 50px;
   padding: 5px;
-  color: #fff;
+  color: #0678e3;
 }
 
 .mobile-nav-toggle i {
@@ -275,11 +264,11 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /* background: url("../img/hero-bg.jpg") top right no-repeat; */
+  background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
   background-position: center;
-  background-color: #272829;
+ 
 }
 .hero-wrap{
   display: flex;
@@ -1060,11 +1049,6 @@ section {
   margin-bottom: 0;
   font-size: 14px;
   color: #728394;
-}
-
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
 }
 
 .contact .info .email:hover i,
